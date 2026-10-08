@@ -1,5 +1,6 @@
 
  //Addition
+ //*
  function add7(number) {
     return number + 7;
 }
@@ -26,6 +27,7 @@ function lastLetter(string) {
 
 console.log(lastLetter("abcd"));
 
+// Rock Paper Scisors Game
 function getComputerChoice() {
     const randomNumber = Math.random();
 
@@ -68,3 +70,9 @@ playRound("rock", "scissors");
 
 console.log("Human score:", humanScore);
 console.log("Computer score:", computerScore);
+
+//Arrays
+let fruits = ["Apple", "Mangoes", "orange"];
+    console.log(fruits);
+    
+
